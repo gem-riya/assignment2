@@ -1,0 +1,39 @@
+.card {
+    border-radius: 5px 5px;
+  }
+  
+  
+  body {
+    background-image: url('s7svpf3b2rceidakwe5h.webp');
+    background-size: contain;
+    width: 200px;
+    height: 170px;
+    border: 2px solid;
+    resize: both;
+    /* overflow: scroll; */
+
+    /*background-size: 100%;*/
+    background-repeat: no-repeat;
+    font-family: var(--myfont);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 130vh;
+    width: 100vw;
+    background-position: center;
+    opacity: 0.9;
+}
+
+  
+  input.invalid {
+    border: 1px solid red;
+  }
+  
+  .error {
+    color: red;
+    font-size: 13px;
+  }
+  
+  .hidden {
+    display: none;
+  }
